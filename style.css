@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 5% 0% 0% 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.common_section {
+    margin-left: 5%;
+    border: 2px;
+    display: flex;
+}
+
+.first_div h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.first_div_left {
+    margin: 50px 50px;
+    width: 40%;
+}
+
+.first_div h1 span {
+    color: orangered;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(45deg, rgb(199, 15, 70), red);
+    border: 1px solid orangered;
+    border-radius: 30px;
+    color: white;
+    font-size: medium;
+}
+
+.first_div_right {
+    width: 50%;
+    background-image: url('images/shapes/Group\ 8447.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+#img_slider {
+    width: 84%;
+    height: 100%;
+    margin: 0%;
+}
+
+.second_div_left {
+    margin: 50px 50px;
+    width: 40%;
+}
+
+.second_div_right {
+    width: 40%;
+    text-align: justify;
+    margin-top: 10%
+}
+
+.second_div {
+    background-image: url('images/shapes/Frame\ 59.jpg');
+    background-size: 100%;
+    margin-top: 10%;
+}
+
+.general {
+    margin: 5% auto;
+    width: 40%;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+}
+
+.footer h1 {
+    font-size: 25px;
+    color: white;
+}
+
+.footer h1 span {
+    color: orange;
+}
+
+.footer p {
+    color: white;
+    font-size: 14px;
+}
+
+.general h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.general p {
+    text-align: center;
+}
+
+.cart {
+    width: 40%;
+    box-shadow: 5px 5px 40px gray;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 3%;
+}
+
+.cart img {
+    width: 100%;
+    height: 60%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.cart h1 {
+    margin: 10px;
+}
+
+.statics {
+    box-shadow: 5px 5px 40px gray;
+    width: 89%;
+    border-radius: 10px;
+    display: flex;
+    padding: 40px 90px;
+    margin-bottom: 10%;
+}
+
+.statics_div {
+    margin-right: 30%;
+}
+
+.footer {
+    text-align: center;
+    padding: 100px;
+}
